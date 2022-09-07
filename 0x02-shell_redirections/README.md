@@ -12,3 +12,4 @@ find . -type f -name "*.js" -delete
 find . -type d -not -name . | wc -l
 ls -tl | head -n 10
 sort | uniq -u
+grep -i "root" /etc/passwd
