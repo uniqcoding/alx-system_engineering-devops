@@ -24,3 +24,4 @@ cut -d ':' -f 1,6 /etc/passwd | sort
 ls -t1 | head -n 10
 find . -empty | rev | cut -d / -f 1 | rev
 find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d . -f 2- | rev | LC_ALL = c sort -f
+cut -c 1 | paste -s -d ''
